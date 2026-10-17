@@ -21,7 +21,10 @@ public class Hospital {
     }
 
     public void cargarDatosIniciales() {
-
+        pacientes[0] = new Perro("Rocky", 30.0, 4, "labrador", true);
+        pacientes[1] = new Gato("Misifu", 4.0, 3, 0);
+        pacientes[2] = new AveExotica("Kiwi", 0.8, 2, 70.0);
+        contadorPacientes = 3;
     }
 
     public Paciente buscarPaciente(String nombre) {
